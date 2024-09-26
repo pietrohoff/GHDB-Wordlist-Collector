@@ -32,7 +32,7 @@ foreach ($categories as $category) {
     $file = fopen($fileName, 'w');
     
     // Escreve o título da categoria no arquivo
-    fwrite($file, "Categoria: $category" . PHP_EOL);
+    // fwrite($file, "Categoria: $category" . PHP_EOL);
     
     // Adiciona as URLs formatadas
     foreach ($data['data'] as $item) {
